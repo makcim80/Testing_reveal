@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>TESTING</section>
+				<section style="font-size: 30px;">
+					<h4 style="font-size: 42px;">Testing</h4>
+					— checking the correspondence between real and expected behavior, is performed on a set of tests that are selected in some way.
+					<img src="./examples/assets/scale_1200.webp" alt="Testing">
+				</section>
+				<section>TESTING TYPES
+					<img src="./examples/assets/TESTING.png" alt="LT_full">
+				</section>
+				<section>
+					<section>TESTING TYPES<p>by level of testing:<br>unit, integration, system</p> <img src="./examples/assets/images.jpeg" alt="level"></section>
+					<section>
+						<p style="font-size: 30px;">Unit Testing is performed by the developers themselves, because it assumes full access to the code, to test any one logically separated and isolated element (module) of the system in the code, checks functionality and searches for defects in the parts of the application that are available and can be tested separately (program modules, objects, classes, functions, etc.).</p>
+						<img src="./examples/assets/xh6hjugd2aghoxgtdy8r.webp" alt="Unit Testing" style="width: 400px;">
+					</section>
+					<section>
+						<p style="font-size: 30px;">Integration Testing is aimed at checking the correctness of interaction of several modules combined into a single whole, i.e. the interaction between system components after component testing is tested.</p>
+						<img src="./examples/assets/ModuleAB.jpg" alt="Integration Testing" style="width: 400px;">
+					</section>
+					<section>
+						<p style="font-size: 30px;">System Testing (E2E, Functional) — is the verification of both functional and non-functional requirements in the system as a whole. It identifies defects such as incorrect utilization of system resources, unintended combinations of user-level data, incompatibility with the environment, unintended usage scenarios, etc., and evaluates the system's quality characteristics - its stability, reliability, security, and performance.</p>
+						<img src="./examples/assets/systm-test.webp" alt="System Testing" style="width: 400px;">
+					</section>
+				</section>
+				<section>
+					<section><img src="./examples/assets/images1.jpeg" alt="performance"><br>TESTING TYPES<p>on performance:<br>load, stability, stress</p></section>
+					
+					<section>
+						<p style="font-size: 30px;">Load testing — this type of testing allows you to evaluate the behavior of the system under increasing load, the purpose of load testing is also to determine the maximum load that the system can handle.</p>
+						<img src="./examples/assets/load.png" alt="load testing">
+					</section>
+					<section>
+						<p style="font-size: 30px;">Stability testing — allows you to test the system performance over a long period of time. In this case, the load may not reach peak values, but have average values, as well as the time of execution of operations is not the main factor in assessing the results of testing.</p>
+						<img src="./examples/assets/stability_testing.png" alt="stability testing" style="width: 400px;">
+					</section>
+					<section>
+						<p style="font-size: 30px;">Stress testing — the purpose of this type of performance testing is to evaluate system performance at workload thresholds or beyond workload limits. It is also possible to evaluate system performance when changing the resources available to the system, such as CPU time, memory, network bandwidth, etc.</p>
+						<img src="./examples/assets/stress_testing.jpeg" alt="stress testing" style="width: 400px;">
+					</section>
+				</section>
+				<section>
+					<section>TESTING TYPES<p>miscellaneous: security testing</p><img src="./examples/assets/miscellaneous.png" alt="miscellaneous" style="width: 500px;"></section>
+					<section>
+						<p style="font-size: 30px;">Security and Access Control Testing - is a testing strategy used to verify the security of a system, and to analyze the risks associated with providing a holistic approach to protecting the application, hacker attacks, viruses, unauthorized access to sensitive data.</p>
+						<img src="./examples/assets/Continuous-and-Automated-Security-Testing-1.jpg" alt="security testing" style="width: 500px;">
+					</section>
+				</section>
+				<section>
+					<img src="./examples/assets/testing-pyramid-2200w.webp" alt="testing-pyramid">
+				</section>
+				<section>
+					<section>Testing approaches
+						<p class="fragment">F.I.R.S.T.</p>
+						<p class="fragment">F – Fast</p>
+						<p class="fragment">I – Independent</p>
+						<p class="fragment">R – Repeatable</p>
+						<p class="fragment">S – Self-Validating</p>
+						<p class="fragment">T – Timely</p>
+					</section>
+				</section>
+				<section>
+					<section>Testing approaches
+						<p class="fragment fade-in-then-out">TDD и BDD</p>
+						<p class="fragment">TDD (Test Driven Development).</p>
+						<img class="fragment" src="./examples/assets/tdd-cycle.png" alt="tdd-cycle" style="width: 500px;">
+					</section>
+				</section>
+				<section>
+					<section>Testing approaches
+						<p class="fragment fade-in-then-out">TDD и BDD</p>
+						<p class="fragment">BDD (Behavior Driven Development).</p>
+						<img class="fragment" src="./examples/assets/difference_between_tdd_and_bdd.png" alt="difference_between_tdd_and_bdd">
+					</section>
+				</section>
+				<section>
+					<h3>Frameworks</h3>
+					<ul>
+						<li class="fragment">MochaJS</li>
+						<li class="fragment">Jest</li>
+						<li class="fragment">Jasmine</li>
+						<li class="fragment">Karma</li>
+						<li class="fragment">Puppeteer (Node Library)</li>
+						<li class="fragment">NightwatchJS</li>
+						<li class="fragment">Cypress</li>
+						<li class="fragment">Playwright (Node Library)</li>
+						<li class="fragment">Selenium</li>
+					</ul>
+				</section>
+				<section>
+					<H4>List of references used</H4>
+					<a href="https://www.performance-lab.ru/blog/load-testing/testirovanie-proizvoditelnosti">Load Testing vs Performance Testing</a><br>
+					<a href="https://habr.com/ru/articles/587620/">Software testing theory</a><br>
+					<a href="http://www.protesting.ru/testing/types/security.html">Security testing</a><br>
+					<a href="https://doka.guide/tools/how-to-test-and-why/">How and why to write tests</a><br>
+					<a href="https://tlroadmap.io/roles/technical-lead/product-quality/testing/test-pyramid.html">Testing pyramid</a><br>
+					<a href="https://habr.com/ru/companies/sbermarket/articles/665260/">Different approaches to testing</a><br>
+					<a href="https://testirovshik.com/first-kriterii-kachestvo-testov/">F.I.R.S.T.</a><br>
+					<a href="https://doka.guide/tools/tdd/">TDD</a><br>
+					<a href="https://medium.com/@lucyhackwrench/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-tdd-%D0%B8-bdd-%D0%BD%D0%B0-%D0%BF%D0%B0%D0%BB%D1%8C%D1%86%D0%B0%D1%85-%D0%B8-%D1%87%D1%82%D0%BE-%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD-%D0%B7%D0%BD%D0%B0%D1%82%D1%8C-%D0%BE-%D0%BD%D0%B8%D1%85-%D1%84%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D1%80-701a10e06bb9">BDD</a><br>
+					<a href="https://www.browserstack.com/guide/top-javascript-testing-frameworks">Frameworks</a>
+				</section>
+				<section>Thank you for your attention!</section>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
